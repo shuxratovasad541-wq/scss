@@ -1,0 +1,36 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --grafit: rgba(51, 51, 51, 1);
+            --gray: rgba(102, 101, 101, 1);
+            --gray-light: rgba(220, 220, 220, 1);
+            --red: rgba(173, 33, 49, 1);
+        }
+
+        body {
+            font-family: 'Montserrat', Helvetica, sans-serif;
+            background: white;
+            overflow-x: hidden;
+        }
+        
+
+        .container {
+            max-width: 1920px;
+            margin: 0 auto;
+            
+        }
+
+        /* Header Section */
+        header {
+            width: 100%;
+            background-image: url(../image/slide\ 1.png);
+            position: relative;
+            height: 211px;
+            background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.77) 59%, rgba(0,0,0,1) 100%);
+            
+        }
+        

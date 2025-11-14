@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="top__bar">
+            <div class="top__bar__content">
+                <div class="top__bar__item">Москва</div>
+                <div class="top__bar__item">Обратный звонок</div>
+                <div class="top__bar__item">Пн-Вс 10-19</div>
+                <div class="top__bar__item">8 (495) 229 85 59</div>
+                
+            </div>
+        </div>
+
+        <div class="main__nav">
+            <div class="main__nav__content">
+                <button class="menu-button">
+                    <img src="./assets/icon/menu.svg" alt="Menu">
+                </button>
+                <div class="menu-text">Меню</div>
+                <img class="logo" alt="Logos" src="./assets/icon/logos.svg">
+                <div class="icon-buttons">
+                    <button class="icon-button"><img src="./assets/icon/strelka.svg" alt="Icon"></button>
+                    <button class="icon-button"><img src="./assets/icon/zoom.svg" alt="Icon"></button>
+                    <button class="icon-button"><img src="./assets/icon/basket.svg" alt="Icon"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-nav">
+            <div class="bottom-nav-content">
+                <ul class="nav-menu">
+                    <li><a href="#">Мойки</a></li>
+                    <li><a href="#">Смесители</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Плиты</a></li>
+                    <li><a href="#">Умывальники</a></li>
+                    <li><a href="#">Manhattan</a></li>
+                    <li><a href="#">Другая продукция</a></li>
+                    <img class="nav-arrow" alt="Icon arrow" src="./assets/icon/nav.svg">
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+
+        <div class="hero-content">
+            <h1 class="hero-title">МОЙКИ, СМЕСИТЕЛИ<br>И АКСЕССУАРЫ</h1>
+            <p class="hero-subtitle">от ведущего производителя сантехники для кухни Reginox</p>
+        </div>
+
+        <nav class="slider-nav">
+            <button class="slider-dot active"></button>
+            <button class="slider-dot"></button>
+            <button class="slider-dot"></button>
+            <button class="slider-dot"></button>
+            <button class="slider-dot"></button>
+        </nav>
+
+        <div class="hero-card">
+            <div class="hero-card-text">
+                <p>Стальные мойки Reg-color</p>
+            </div>
+            <div class="hero-card-image">
+                <img src="./assets/image/reg.png" alt="Photo">
+            </div>
+        </div>
+    </section>
+  </section>
+
+    <!-- Offices Section -->
+    <section class="offices-section">
+        <div class="offices-bg">
+            <div class="offices-container">
+                <h2 class="offices-title">THE CROWN FOR YOUR KITCHEN</h2>
+
+                <div class="offices-grid">
+                    <div class="office-item">
+                        <button class="office-button">
+                            <span>Reginox bv, Nederland</span>
+                            <span>▼</span>
+                        </button>
+                    </div>
+
+                    <div class="office-item">
+                        <button class="office-button">
+                            <span>Reginox Rif Holding, Russia</span>
+                            <span>▼</span>
+                        </button>
+                    </div>
+
+                    <div class="office-item">
+                        <button class="office-button">
+                            <span>Reginox, UK Ltd</span>
+                            <span>▼</span>
+                        </button>
+                    </div>
+
+                    <div class="office-item">
+                        <button class="office-button" onclick="toggleOffice(this)">
+                            <span>Reginox, Singapure</span>
+                            <span>▲</span>
+                        </button>
+                        <div class="office-card active">
+                            <div class="office-details">
+                                <button class="office-button">
+                                    <span>Reginox, Singapure</span>
+                                    <span>▲</span>
+                                </button>
+                                <div class="office-address">1 Loyang Lane #03-03
+Singapore 508913</div>
+                                <div class="office-contact">
+                                    <span>📞</span>
+                                    <span>+ 65 (0) 67 88 53 63</span>
+                                </div>
+                                <div class="office-contact">
+                                    <span>✉️</span>
+                                    <a href="mailto:info@reginox.com.sg">info@reginox.com.sg</a>
+                                </div>
+                                <div class="office-contact">
+                                    <span>🌐</span>
+                                    <span>reginox.sg</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="catalog-section">
+        <div class="catalog-container">
+            <h2 class="catalog-title">КАТАЛОГ</h2>
+
+            <div class="catalog-grid">
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header1.png" alt="Мойки">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Мойки</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header2.png" alt="Смесители">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Смесители</div>
+                        </div>
+                    </div>
+                    <div class="catalog-button">
+                        <div>Перейти в каталог</div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header3.png" alt="Аксессуары">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Аксессуары</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header4.png" alt="Плиты">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Плиты</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header5.png" alt="Умывальники">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Умывальники</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header6.png" alt="Столешницы">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Столешницы</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header7.png" alt="Системы хранения Manhattan">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Системы хранения Manhattan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header8.png" alt="Измельчители Bone Crusher">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Измельчители Bone Crusher</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-image-container">
+                        <img class="catalog-image" src="./assets/image/header9.png" alt="Иная продукция">
+                        <div class="catalog-overlay"></div>
+                        <div class="catalog-name">
+                            <div>Иная продукция</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2 class="products-title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/ssection1.png" alt="Amsterdam 25 Dark chocolate">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Amsterdam 25 Dark chocolate</h3>
+                    <p class="product-price">9 950 руб</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/section2.png" alt="YADKIN K1065K black">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">YADKIN K1065K black</h3>
+                    <p class="product-price">31 000 руб</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/section3.png" alt="Diplomat R 20 lux">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Diplomat R 20 lux</h3>
+                    <p class="product-price">17 000 руб</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/section4.png" alt="Столешница WAFELBLAD R00939">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Столешница WAFELBLAD R00939</h3>
+                    <p class="product-price">47 520 руб</p>
+                </div>
+            </div>
+
+            <div class="product-card with-button">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/section5.png" alt="Amsterdam 34 Caffe Silvery">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Amsterdam 34 Caffe Silvery</h3>
+                    <p class="product-price">19 000 руб</p>
+                </div>
+                <button class="product-button">
+                    <img src="./assets/icon/basket.svg">
+                    <span>В корзину</span>
+                </button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="./assets/image/section6.png" alt="R18 370 OSP lux">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">R18 370 OSP lux</h3>
+                    <p class="product-price">7 300 руб</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <h2 class="about-title">О КОМПАНИИ</h2>
+
+            <div class="about-text bold">
+                Добро пожаловать на сайт Компании Reginox Reef Holding<br>
+                (ООО «РеджиноксРиф Холдинг») — единственного и официального представителя производителя сантехнической продукции для кухни <br>и ванной комнаты Reginox (Нидерланды).
+            </div>
+
+            <div class="about-text">
+                Основной специализацией нашей компании являются розничные <br>и оптовые продажи кухонной сантехники по всей России. Мы предлагаем кухонные мойки из нержавеющей стали и гранитного композита, смесители для кухни, а также оригинальную продукцию от Reginox:
+            </div>
+
+            <div class="about-list">
+                <div class="list-bullets">
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                </div>
+                <div class="list-items">
+                    <div class="list-item">умывальники</div>
+                    <div class="list-item">окрашенные мойки</div>
+                    <div class="list-item">системы газовых конфорок PITTbyReginox</div>
+                    <div class="list-item">многофункциональные кухонные комплексы и др.</div>
+                </div>
+            </div>
+
+            <div class="about-text">
+                Более 25 лет назад компания RRHolding представила на российском рынке кухонные мойки Reginox из нержавеющей стали, приятно удивившие покупателей отличным качеством, многообразием моделей<br>и современным дизайном. Продукция Reginox входит в постоянный ассортимент ряда крупных фабрик-производителей мебели, введена <br>в предложение крупнейших продавцов мебельной фурнитуры <br>и комплектующих, и представлена во множестве кухонных салонов <br>по всей России. За годы нашей работы мы заключили контракты в сферах:
+            </div>
+
+            <div class="about-list">
+                <div class="list-bullets">
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                </div>
+                <div class="list-items">
+                    <div class="list-item">авиастроение</div>
+                    <div class="list-item">вагоностроение</div>
+                    <div class="list-item">судостроение</div>
+                    <div class="list-item">здравоохранение</div>
+                    <div class="list-item">предприятия общественного питания</div>
+                    <div class="list-item">иные учреждения сферы обслуживания и др.</div>
+                </div>
+            </div>
+
+            <h3 class="about-subtitle">НАШИ ПРЕИМУЩЕСТВА</h3>
+
+            <div class="advantages-list">
+                <div class="advantages-bullets">
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                </div>
+                <div class="list-items">
+                    <div class="list-item">многолетний опыт, профессиональный подход, надежное партнерство и отличная репутация на рынке</div>
+                    <div class="list-item">высококачественный европейский товар и гарантия производителя, соответствие всем международным и российским стандартам и требованиям</div>
+                    <div class="list-item">постоянное наличие на складе Москвы и Санкт-Петербурга (официальное представительство ООО «Ревестал»), а также возможность изготовления под индивидуальный заказ</div>
+                    <div class="list-item">работа с розничными покупателями, с мелкооптовыми и крупнооптовыми заказчиками, сотрудничество с каждым покупателем или бизнес-партнером по специальной программе и индивидуальной ценовой политике</div>
+                    <div class="list-item">широкий ассортимент и различные модификации, позволяющие реализовать проекты в различных сферах - доставка в любую точку России</div>
+                </div>
+            </div>
+
+            <div class="about-text">
+                Благодаря многолетнему и плодотворному тандему RRHolding и Reginox, сегодня мы имеем большое количество бизнес-партнеров, в том числе<br>и за пределами РФ, с которыми поддерживаем и развиваем взаимовыгодные отношения, приобрели популярность среди потребителей, и сохранили за собой статус компании, предлагающей на рынке России продукцию со «стальной репутацией». Мы предлагаем лучшее качество от европейского завода-производителя (завод расположен в Нидерландах, город Rijssen) и пожизненную гарантию на продукцию из нержавеющей стали!
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-heading">
+                        <h3>О компании</h3>
+                        <img src="./assets/icon/up.svg" alt="Icon">
+                    </div>
+                    <a href="#" class="footer-link">Почему мы</a>
+                    <a href="#" class="footer-link">Наши партнеры</a>
+                    <a href="#" class="footer-link">Сертификаты и гарантии</a>
+                    <a href="#" class="footer-link">Статьи</a>
+                    <a href="#" class="footer-link">Информация</a>
+                    <a href="#" class="footer-link">Каталоги</a>
+                    <a href="#" class="footer-link">Доставка и оплата</a>
+                    <a href="#" class="footer-link">Контакты</a>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-heading">
+                        <h3>Каталог</h3>
+                        <img src="./assets/icon/up.svg" alt="Icon">
+                    </div>
+                    <a href="#" class="footer-link">Мойки</a>
+                    <a href="#" class="footer-link">Смесители</a>
+                    <a href="#" class="footer-link">Аксессуары</a>
+                    <a href="#" class="footer-link">Плиты</a>
+                    <a href="#" class="footer-link">Умывальники</a>
+                    <a href="#" class="footer-link">Столешницы</a>
+                    <a href="#" class="footer-link">Системы хранения Manhattan</a>
+                    <a href="#" class="footer-link">Измельчители Bone Crusher</a>
+                    <a href="#" class="footer-link">Другая продукция</a>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-heading">
+                        <h3>Бренды</h3>
+                        <img src="./assets/icon/up.svg" alt="Icon">
+                    </div>
+                    <a href="#" class="footer-link">Reginox</a>
+                    <a href="#" class="footer-link">Rodi</a>
+                    <a href="#" class="footer-link">Whinstone</a>
+                    <a href="#" class="footer-link">Rerih</a>
+                    <a href="#" class="footer-link">Status</a>
+                    <a href="#" class="footer-link">Bone Crusher</a>
+                    <a href="#" class="footer-link">Armando Vicario</a>
+                    <a href="#" class="footer-link">Webert</a>
+                    <a href="#" class="footer-link">Effepi</a>
+                    <a href="#" class="footer-link">Glionna Bagno</a>
+                    <a href="#" class="footer-link">Аквафор</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-container">
+                    <img class="payment-methods" src="./assets/icon/payment.svg" alt="Payment methods">
+
+                    <div class="footer-bottom-content">
+                        <img class="footer-logo" src="./assets/icon/red.svg" alt="Logo">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
